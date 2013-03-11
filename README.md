@@ -3,12 +3,19 @@ cuGWAS
 
 High-performance GWAS implementation based on CUDA/cuBLAS. This is the code from my diploma (eq. masters) thesis. (Sorry AMD, no more time :-()
 
+THIS REPOSITORY IS OBSOLETE
+===========================
+
 I am currently working on integrating this work into
 [OmicABEL](https://r-forge.r-project.org/scm/viewvc.php/pkg/OmicABEL/?root=genabel&sortby=rev)
 so that it is easily useable for biologists. In the meantime, I uploaded my
 [prototype](https://github.com/lucasb-eyer/cuGWAS-proto) here, you might have
 a look at it but beware that it is *prototype*-level code, so it might lead to
 your computer being eaten by a dinosaur.
+
+The integration into OmicABEL takes place in another repository:
+[cuOmicABEL](https://github.com/lucasb-eyer/cuOmicABEL) and will hopefully be
+merged back into OmicABEL. Go over to that repository, please.
 
 Installation
 ============
